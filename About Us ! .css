@@ -1,0 +1,139 @@
+.elianforce {
+  margin: 20px;
+  font-size: 18px;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+ 
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  background: url("xbox-amoled-dark-5120x2880-13302.png") no-repeat center ;
+  
+  background-size: cover;
+  backdrop-filter: blur (12px);
+   overflow-x: hidden;
+
+  color: black;
+}
+.form{
+  width: 900px;
+  height: 600px;
+  margin: 0 0 0 200px;
+  
+  
+ 
+}
+.heading {
+  text-align: center;
+  color: rgb(252, 245, 245);
+  font: 10em sans-serif;
+ 
+}
+.heading:hover{
+  text-align: center;
+  color: rgb(184, 226, 32);
+  font: 10em sans-serif;
+  font-size: 3em;
+
+
+}
+.Logo img{
+  background: transparent;
+  
+}
+.apolo {
+  background: transparent;
+  backdrop-filter: blur(12px);
+ 
+  text-align: center;
+  border: #d3b21e solid 1px;
+  border-radius: 20px;
+  padding: 8px;
+  font-size: 20px;
+  color: rgb(242, 226, 226);
+  width: 100%;
+  margin: auto;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.apolo:hover{
+  color:#b5e607;
+}
+.ben {
+  color: rgb(248, 245, 245);
+}
+.k2 {
+  color: rgb(248, 239, 239);
+}
+.heading {
+  text-align: center;
+  color: rgb(236, 230, 230);
+  font: 10em sans-serif;
+  font-size: larger;
+}
+
+.phone-number {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-top: 8px;
+  background-color: #1acf38;
+  border-radius: 15px;
+  color: #fff8f8;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+.phone-number:hover {
+  background-color: #b5e607;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition-duration: 1s;
+  transition-delay: 2ms;
+  transform-origin: 2px;
+}
+.footerContainer {
+  background-color: #090909;
+  height: 150px;
+  border-radius: 100px 100px 0 0;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  max-width: 1300px;
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  font-size: larger;
+}
+.email-box {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 20px;
+  
+  border: 1px solid #d3b21e;
+  border-radius: 10px;
+  background: transparent;
+  backdrop-filter: blur(12px);
+
+}
+.email-box p {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+}
+.form:hover{
+  color: #b5e607;
+
+
+}
